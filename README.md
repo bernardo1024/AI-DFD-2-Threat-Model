@@ -37,6 +37,7 @@ Your DFD must include:
 -   Trust boundaries clearly drawn
 -   Explicit data flow arrows
 -   Sensitive data classification
+-   Add security context notes/comments to diagram (TLS 1.3 used for all communications...)
 
 If trust boundaries are not drawn, define them before running the
 prompt.
@@ -45,7 +46,7 @@ prompt.
 
 ## Step 2 -- Customize the Prompt
 
-In the master prompt file:
+In the master prompt file (Generic_DFD_Threat_Model_Master_Prompt.md):
 
 1.  Replace the Tech Stack placeholders with your environment:
     -   Cloud provider
